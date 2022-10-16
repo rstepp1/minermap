@@ -16,12 +16,10 @@ function initMap() {
             latLngBounds: UNCC_BOUNDS,
             strictBounds: false,
         },
+        zoomControl: true,
     });
 
-    const marker = new google.maps.Marker({
-        position: uncc,
-        map: map,
-    });
+
 }
 
 window.initMap = initMap;
